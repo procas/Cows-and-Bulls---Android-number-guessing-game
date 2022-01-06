@@ -13,6 +13,6 @@ The game is based on AndroidStudio and SQLite
 
 A YouTube video of the game's working is provided: https://www.youtube.com/watch?v=C5srI-AzHTQ
 
-<img></img>
 
-![image](https://drive.google.com/uc?export=view&id=0By8hUJNS38zXN2ZRbGdlcEJlYjQ)
+
+<a href="https://drive.google.com/uc?export=view&id=0By8hUJNS38zXN2ZRbGdlcEJlYjQ"><img src="https://drive.google.com/uc?export=view&id=0By8hUJNS38zXN2ZRbGdlcEJlYjQ" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
