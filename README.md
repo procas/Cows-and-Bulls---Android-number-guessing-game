@@ -15,4 +15,4 @@ A YouTube video of the game's working is provided: https://www.youtube.com/watch
 
 <img></img>
 
-![alt text](https://drive.google.com/file/d/0By8hUJNS38zXUTNOQmlTcTA5WEk/view?usp=sharing&resourcekey=0-pvOZo8FfO09Zu_Ig1shORQ)
+![image](https://drive.google.com/file/d/0By8hUJNS38zXUTNOQmlTcTA5WEk/view?usp=sharing&resourcekey=0-pvOZo8FfO09Zu_Ig1shORQ)
