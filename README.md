@@ -24,7 +24,7 @@ A YouTube video of the game's working is provided: https://www.youtube.com/watch
   <p>
 <img src="Start Screen.jpg" width="300" />
  <img src="High Scores.jpg" width="300" />
-   <img src="Play view.jpg" width="300" />
+   <img src="Game view.jpg" width="300" />
   </p>
   
 
