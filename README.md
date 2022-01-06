@@ -16,6 +16,8 @@ A YouTube video of the game's working is provided: https://www.youtube.com/watch
   <p>
 <img src="Start Screen.jpg" width="200" />
 <img src="High Scores.jpg" width="200" />
+<img src="Game Hint.jpg" width="200" />
+  
   </p>
   
 
