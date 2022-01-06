@@ -15,4 +15,9 @@ A YouTube video of the game's working is provided: https://www.youtube.com/watch
 
 
 
-<a href="https://drive.google.com/uc?export=view&id=0By8hUJNS38zXN2ZRbGdlcEJlYjQ"><img src="https://drive.google.com/uc?export=view&id=0By8hUJNS38zXN2ZRbGdlcEJlYjQ" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+<a href="https://drive.google.com/uc?export=view&id=0By8hUJNS38zXN2ZRbGdlcEJlYjQ"><img src="https://drive.google.com/uc?export=view&id=0By8hUJNS38zXN2ZRbGdlcEJlYjQ" style="width: 650px; max-width: 100%; height: auto" title="Game view" />
+  
+  
+  <a href="https://drive.google.com/uc?export=view&id=0By8hUJNS38zXY3FjNTd1WFJUNE0"><img src="https://drive.google.com/uc?export=view&id=0By8hUJNS38zXY3FjNTd1WFJUNE0" style="width: 650px; max-width: 100%; height: auto" title="High scores" />
+  
+
