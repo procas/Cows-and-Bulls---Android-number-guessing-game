@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+    <TextView
+        android:id="@+id/cow"
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_toRightOf="@+id/enter"/>
+
+    <ImageView
+        android:id="@+id/imCow"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/cow"
+        android:src="@drawable/cow"/>
+
+    <TextView
+        android:id="@+id/bull"
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_toRightOf="@+id/imCow"/>
+
+    <ImageView
+        android:id="@+id/imBull"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/bull"
+
+        android:src="@drawable/bull"/>
+
+</RelativeLayout>

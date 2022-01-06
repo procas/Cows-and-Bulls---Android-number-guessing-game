@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="thenewboston.com.dynamic_2.ScrollInstruct">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/WelcomeText"
+    android:textSize="20dp"
+    android:textColor="#E040FB"
+
+    android:text="       Welcome to the Cow Bull game\n    An A(pp)Normal Studios Production\n                  Copyright  © 2016\n                  All rights reserved"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentStart="true"
+    android:layout_centerHorizontal="true" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:fillViewport="true"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/WelcomeText">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="
+                          \n1. A random number is generated each time\n\n2.Every number is between 1000 and 9999.\n\n3. Repeated digits are not considered\n\n4. Your aim is to guess the number\n\n5. A cow is a digit in the guessed number that is present in the original number
+                          but is not in the correct position.\n\n6. A bull is a digit in the guessed number that is present in the original number as
+                          well as is in the correct position.\n\n7. Your aim is to get 4 bulls.\n\n6. For example, \n\nif you have guessed 1234 and the correct answer is 7354, then you will get a result of 1 Cow 1 Bull"
+
+            android:id="@+id/textView"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/WelcomeText" />
+    </ScrollView>
+
+</RelativeLayout>

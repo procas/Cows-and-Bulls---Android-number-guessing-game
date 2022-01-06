@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CompleteListActivity" >
+    <android.support.v7.widget.Toolbar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/view"
+        android:background="#70a9f0"></android.support.v7.widget.Toolbar>
+    <ListView
+        android:id="@+id/completeList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/addItemToList"
+        android:layout_alignEnd="@+id/addItemToList"
+        android:background="#fdfafa"
+        android:alpha="90">
+    </ListView>
+    <Button
+        android:id="@+id/addItemToList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENTER"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/enter"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/enter"
+        android:minEms="4"
+        android:maxLength="4"
+        android:layout_below="@+id/view"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/powerButton"
+        android:src="@drawable/ic_action_power_settings_new"
+        android:onClick="power"
+        android:layout_alignBottom="@+id/view"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/add"
+        android:src="@drawable/ic_action_add_box"
+        android:onClick="again"
+        android:layout_alignBottom="@+id/view"
+        android:layout_toEndOf="@+id/imageView2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/help"
+        android:src="@drawable/ic_action_info_outline"
+        android:onClick="showHelp"
+        android:layout_alignBottom="@+id/view"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REVEAL ANSWER"
+        android:id="@+id/button2"
+        android:layout_alignTop="@+id/addItemToList"
+        android:layout_alignParentStart="true"
+        android:onClick="revealAnswer"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/ic_action_arrow_back"
+        android:layout_alignTop="@+id/powerButton"
+        android:layout_toEndOf="@+id/powerButton"
+        android:onClick="toOptions"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/music"
+        android:src="@drawable/sound"
+        android:layout_alignTop="@+id/help"
+        android:layout_toStartOf="@+id/help" />
+
+</RelativeLayout>
