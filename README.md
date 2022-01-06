@@ -22,7 +22,7 @@ A YouTube video of the game's working is provided: https://www.youtube.com/watch
   <a href="https://drive.google.com/uc?export=view&id=0By8hUJNS38zXYzVyRG9pSDRzTWs"><img src="https://drive.google.com/uc?export=view&id=0By8hUJNS38zXYzVyRG9pSDRzTWs" style="width: 650px; max-width: 100%; height: auto" title="High scores" />
   
   <p>
-<img src="Game View.jpg" width="300" />
+<img src="Game Hint.jpg" width="300" />
  <img src="High Scores.jpg" width="300" />
    <img src="Play View.jpg" width="300" />
   </p>
